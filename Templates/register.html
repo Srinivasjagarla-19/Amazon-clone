@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Amazon account</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+</head>
+<body>
+    <center>
+        <form action="{{ url_for('register') }}" method="POST">
+            <h3>Create Your Amazon Account</h3>
+            <br>
+            <div class="logo">
+            </div>
+            <div class="login">
+                <h2>Enter Your Details</h2>
+                <div class="login-name">
+                    <p>Your name</p>
+                    <input type="text" class="name" placeholder="Enter your first and last name" name="name" required>
+                </div>
+                <div class="login-id">
+                    <p>Email</p>
+                    <input type="text" class="id" placeholder="Enter Your Email" name="email" required>
+                </div>
+                <div class="login-pass">
+                    <p>Password</p>
+                    <input type="password" class="pass" placeholder="At least 6 characters" name="pass" required>
+                </div>
+                <div class="login-sign">
+                    <input type="submit" value="Sign" class="sig">
+                </div>
+                <p class="text">
+                    By continuing, you agree to Amazon's <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">Conditions of Use </a>and <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy Notice.</a>
+                </p>
+                <br>
+                <div class="alreadyhave">
+                    <p>Already have an account? <a href="{{ url_for('sign') }}">Sign in</a></p>
+                </div>
+            </div>
+        </form>
+    </center>
+</body>
+</html>

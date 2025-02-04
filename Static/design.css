@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    margin-top: 20px;
+}
+.logo{
+    height: 100px;
+    width: 250px;
+    background-image: url("Amazon_logo1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.login{
+    border: 1px solid #1710102a;
+    border-radius: 8px;
+    height: 310px;
+    width: 270px;
+    text-align: left;
+    padding: 3px 0px 0px 5px;
+}
+h2{
+    padding: 3px 0px 0px 5px;
+}
+.login-name{
+    margin-top: 9px;
+    padding: 3px 0px 0px 5px;
+    font-size: 15px;
+}
+.name{
+    width: 90%;
+}
+.name:hover{
+    border: 3px solid rgba(246, 160, 0, 0.975);
+}
+.name:active{
+    box-shadow: 0px 3px 15px rgba(110, 115, 119, 0.8);
+}
+.login-id{
+    margin-top: 9px;
+    padding: 3px 0px 0px 5px;
+    font-size: 15px;
+}
+.id{
+    width: 90%;
+}
+.id:hover{
+    border: 3px solid rgba(246, 160, 0, 0.975);
+}
+.id:active{
+    box-shadow: 0px 3px 15px rgba(110, 115, 119, 0.8);
+}
+.login-pass{
+    margin-top: 9px;
+    padding: 3px 0px 0px 5px;
+    font-size: 15px;
+}
+.pass{
+    width: 90%;
+}
+.pass:hover{
+    border: 3px solid rgba(246, 160, 0, 0.975);
+}
+.pass:active{
+    box-shadow: 0px 3px 15px rgba(110, 115, 119, 0.8);
+}
+.login-sign{
+    background-color:  #ebc25b;
+    height: 30px;
+    margin: 5px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.sig{
+    background-color:  #ebc25b;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.text{
+    margin-top: 9px;
+    padding: 3px 0px 0px 5px;
+    font-size: 15px;
+}
+.text a{
+    text-decoration: none;
+    color: rgb(34, 180, 224);
+}
+.alreadyhave{
+    padding: 3px 0px 0px 5px;
+}

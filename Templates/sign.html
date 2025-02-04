@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+<center>
+    <h1>Welcome to Login Page</h1>
+    <br>
+    <form action="{{ url_for('sign')}}" method="POST">
+    <div class="logo">
+    </div>
+    <div class="loginpage">
+        <div class="login">
+            <h2>Sign In</h2>
+            <div class="login-id">
+                <p>Email</p>
+                <input type="text" class="id" name="email" required>
+            </div>
+            <div class="login-pass">
+                <p>Password</p>
+                <input type="password" class="pass" name="pass" required>
+            </div>
+            <div class="login-sign">
+                <input type="submit" value="Sign" class="sig">
+            </div>
+        </div>
+        </form>
+        <p class="text">
+            By continuing, you agree to Amazon's <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">Conditions of Use </a>and <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy Notice.</a>
+        </p>
+        <br>
+        <hr>
+        <div class="login-newacc">
+            <p>New account?</p>
+            <form action="{{ url_for('register')}}" method="POST">
+                <input type="submit" value="Create Your Amazon account" class="newac">
+            </form>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
