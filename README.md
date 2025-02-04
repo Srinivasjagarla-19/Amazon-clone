@@ -1,4 +1,4 @@
-Amazon Clone using Flask 🛒
+<h1>Amazon Clone using Flask 🛒</h1><br>
 I developed an Amazon Clone using Flask, focusing on core e-commerce functionalities such as user authentication, product management, shopping cart, and checkout. This project demonstrates my ability to build a full-stack web application using Flask, MySQL, and sessions for user data management.
 
 🔥 Key Features:
